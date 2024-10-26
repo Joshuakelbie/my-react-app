@@ -2,31 +2,42 @@ function App() {
 
   return (
     <>
-      <h2>---------------------</h2>
-      <h1>Joshua kelbie</h1>
-      <h2>---------------------</h2>
-
-      <div>
-      <h1>1</h1>
-      <h2>2</h2>
-      <h3>3</h3>
-      <h4>4</h4>
-      <h5>5</h5>
-      </div>
-      <br />
+      <h1>----PORTFOLIO----</h1>
+      <h2>นาย โจชัว เคลบี้</h2>
+      <h2>---ประวัตืส่วนตัว---</h2>
+      <p>ชื่อเล่น : จอร์ช -- วันเกิด : 23/03/2549 -- อายุ : 18</p>
       <span>
-      <h1>1</h1>
-      <h2>2</h2>
-      <h3>3</h3>
-      <h4>4</h4>
-      <h5>5</h5>
+        <h3>ที่อยู่</h3>
+        <p>111/813 ต.เสม็ด อ.เมือง จ.ชลบุรี 20000</p>
       </span>
-      <br />
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam expedita iste excepturi, reiciendis iusto vel, inventore deleniti et earum eligendi culpa nam aliquid quos! Culpa eius blanditiis quis placeat illo.</p>
-
-      <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto libero ab sapiente velit facere, id atque illo eligendi. Qui sunt excepturi rerum tempora suscipit magnam dolore nostrum veritatis et voluptas.</span>
-
-
+      <h3>สิ่งที่ชอบ</h3>
+      <p>นอนได้ทั้งวัน/คอมพิวเตอร์</p>
+      <h3>อาชีพในฝัน</h3>
+      <p>Programmer</p>
+      <p>Cyber security</p>
+      <h3>งานอดิเรก</h3>
+      <ul>
+        <li>นอน</li>
+        <li>ฟังเพลง</li>
+        <li>เล่นเกม</li>
+        <li>ออกกำลังกาย</li>
+      </ul>
+      <h3>ประวัติการศึกษา</h3>
+      <table>
+        <tr>
+          <th>ปี</th>
+          <th>ชื่อโรงเรียน/วิลัย</th>
+          <th></th>
+        </tr>
+        <tr>
+          <td>(2563)</td>
+          <td>โรงเรียนเทศบาลอินทปัญญา วัดใหญ่อินทาราม</td>
+        </tr>
+        <tr>
+          <td>(2564 - 2566)</td>
+          <td>วิทยาลัยอาชีวศึกษา ชลบุรี</td>
+        </tr>
+      </table>
     </>
   )
 }
